@@ -6,4 +6,5 @@ import java.util.Map;
 
 public interface ControllerV3 {
 
+    ModelAndView process(Map<String, String>) 
 }

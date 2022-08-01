@@ -1,10 +1,10 @@
 package hello.servlet.web.frontcontroller.v3;
 
-import org.springframework.web.servlet.ModelAndView;
+import hello.servlet.web.frontcontroller.ModelView;
 
 import java.util.Map;
 
 public interface ControllerV3 {
 
-    ModelAndView process(Map<String, String>) 
+    ModelView process(Map<String, String> paramMap);
 }
